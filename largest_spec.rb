@@ -9,4 +9,8 @@ describe '#largest' do
   it 'handles a 1-entry array' do
     expect(largest [3]).to eq 3
   end
+
+  it 'handles a larger array' do
+    expect(largest [1, 3, 2]).to eq 3
+  end
 end
