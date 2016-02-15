@@ -1,5 +1,5 @@
 def largest(list)
-  # if list
-  #   return list[0]
-  # end
+  if list
+    list[0]
+  end
 end
